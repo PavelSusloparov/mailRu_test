@@ -12,10 +12,8 @@ import org.testng.Assert;
 
 /**
  * Class includes interaction functionality with mail.ru web site.
- * Actions are methods name.
  */
 public class MailActor {
-	//ToDo: Need to cover each method in expectation time of execution.
 
 	private WebDriver driver;
 
@@ -100,7 +98,7 @@ public class MailActor {
 			}
 		}
 	}
-	
+
 	/**
 	 * Check that we logout from the mail system.domains.
 	 * Focus should be on the main http://mail.ru page.
